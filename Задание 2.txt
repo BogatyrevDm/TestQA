@@ -1,0 +1,30 @@
+Error calling context method (ExecuteCommand):
+#1 _970001 filling in test data base
+Ошибка возникает из-за зависшего окна предупреждения с предыдущего теста
+
+
+Expected number of lines in <BasisesTree> table is равно 0 and actual number is <2>.
+#1 _015450 check message output for SO when trying to create a purchase order/SC
+Ошибка возникает из-за несоответствия количество строк дерева BasisesTree ожидаемому
+
+Form table named <List> is not found.
+#1 _0154149 create Cash statement
+Ошибка возникает из-за того, что в тесте не правильно прописан идентификатор табличной части
+
+
+Line No.
+#1 _092003 check serial lot number in the Retail return receipt
+Ошибка возникает из-за незаполненного периода в табличной части
+
+The button/command with <Sales invoice> header is not found.
+#1_024027 cancel line in the SO and create SI
+Ошибка возникает из-за несоответствия заголовка кнопки требуемому
+
+Unable to move to the required line in <BasisesTree> table.
+#1 _024004 create SI using form link/unlink
+Ошибка возникает из-за отсутствия в дереве BasisesTree строки с необходимыми данными
+
+#2 _2060018 check link form in the PI with 2 lines with the same items
+Ошибка возникает из-за отсутствия в дереве BasisesTree строки с необходимыми данными
+ 
+ 
